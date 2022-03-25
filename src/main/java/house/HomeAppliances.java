@@ -86,8 +86,8 @@ public class HomeAppliances {
     }
 
     //Customized Methods
-    public boolean needWater(){
-        return true;
+    public String waterConnection(){
+        return "I need Water to Operate";
     }
 
 
