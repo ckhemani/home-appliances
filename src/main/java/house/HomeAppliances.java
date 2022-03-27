@@ -5,7 +5,7 @@ public class HomeAppliances {
     private String make;
     private String model;
     private String bodyType;
-    private String price;
+    private int price;
     private String plugType;
     private int voltageNeed;
     private int weight;
@@ -17,7 +17,7 @@ public class HomeAppliances {
 
     //HomeAppliances Methods with Parameters ( Constructors)
 
-    public HomeAppliances(String make, String model, String bodyType, String plugType ,String price, int voltageNeed, int weight) {
+    public HomeAppliances(String make, String model, String bodyType, String plugType ,int price, int voltageNeed, int weight) {
         this.make = make;
         this.model = model;
         this.bodyType = bodyType;
@@ -61,11 +61,11 @@ public class HomeAppliances {
         this.plugType = plugType;
     }
 
-    public String getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 

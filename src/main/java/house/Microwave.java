@@ -5,7 +5,7 @@ public class Microwave extends HomeAppliances{
 
     // Constructors
 
-    public Microwave(String make, String model, String bodyType, String plugType, String price, int voltageNeed, int weight, String range) {
+    public Microwave(String make, String model, String bodyType, String plugType, int price, int voltageNeed, int weight, String range) {
         super(make, model, bodyType, plugType, price, voltageNeed, weight);
         Range = range;
     }

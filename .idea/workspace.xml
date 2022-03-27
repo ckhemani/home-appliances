@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c862aa8f-95f6-4614-a51a-a5c697907cd3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/house/Dishwasher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Dishwasher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/house/Dryer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Dryer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/house/HomeAppliances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/HomeAppliances.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/house/Microwave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Microwave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/house/Refrigrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Refrigrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/house/Washer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/house/Washer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/Dishwasher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/Dishwasher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/Dryer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/Dryer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/HomeAppliances.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/HomeAppliances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/Microwave.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/Microwave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/Refrigrator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/Refrigrator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/house/Washer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/house/Washer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="home-appliances" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

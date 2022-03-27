@@ -6,7 +6,7 @@ public class Dryer extends HomeAppliances{
 
     //Constructer
 
-    public Dryer(String make, String model, String bodyType, String plugType, String price, int voltageNeed, int weight, String loadType) {
+    public Dryer(String make, String model, String bodyType, String plugType, int price, int voltageNeed, int weight, String loadType) {
         super(make, model, bodyType, plugType, price, voltageNeed, weight);
         this.loadType = loadType;
     }

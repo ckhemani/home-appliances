@@ -6,7 +6,7 @@ public class Dishwasher extends HomeAppliances {
 
     //Constructors
 
-    public Dishwasher(String make, String model, String bodyType, String plugType, String price, int voltageNeed, int weight, int racks) {
+    public Dishwasher(String make, String model, String bodyType, String plugType, int price, int voltageNeed, int weight, int racks) {
         super(make, model, bodyType, plugType, price, voltageNeed, weight);
         this.racks = racks;
     }
