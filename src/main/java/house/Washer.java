@@ -1,26 +1,18 @@
 package house;
 
 public class Washer extends HomeAppliances {
-    String loadType;
+    boolean isSteam;
 
     // Constructor
 
-    public Washer(String make, String model, String bodyType, String plugType, int price, int voltageNeed, int weight, String loadType) {
+    public Washer(String make, String model, String bodyType, String plugType, int price, int voltageNeed, int weight, boolean isSteam) {
         super(make, model, bodyType, plugType, price, voltageNeed, weight);
-        this.loadType = loadType;
+        this.isSteam = isSteam;
     }
 
     //Getter  and Setters
 
-    public String getLoadType() {
-        return loadType;
-    }
-
-    public void setLoadType(String loadType) {
-        this.loadType = loadType;
-    }
-
-    public boolean isSteamCycleAvailable(){
+    public boolean isSteam() {
         return true;
     }
 
@@ -29,7 +21,7 @@ public class Washer extends HomeAppliances {
     @Override
     public String toString() {
         return "Washer{" +
-                "loadType='" + loadType + '\'' +
+                "loadType='" + isSteam + '\'' +
                 '}';
     }
 }
